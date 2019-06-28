@@ -1,0 +1,53 @@
+/***** Base styles *****/
+
+
+body {
+    font-family: 'omnes-semicond', sans-serif;
+    font-weight: 200;
+    
+}
+.logo {
+    color: #f6c253;
+    font-family: 'omnes-pro',sans-serif;
+    font-size: 54px;
+    font-weight: 700;
+}
+
+/***** The 'grid' *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width {
+    width: 600px;
+    margin: 0 auto;
+    float: left;
+}
+
+.third-width {
+    width: 400px;
+    margin: 0 auto;
+    float:left;
+}
+
+/***** Header *****/
+
+header.full-width {
+    background-image: url(../img/hero-image.png);
+    background-size: cover;
+    width: auto;
+    height: 400px;
+    text-align: left;
+    padding: 320px 130px 0px 320px
+}
+
+.full-width h1 {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 90px;
+}
+.full-width h3 {
+    font-size: 30px;
+    line-height: 50px;
+}
