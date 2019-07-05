@@ -12,6 +12,34 @@ body {
     font-weight: 700;
 }
 
+
+h1 {
+    font-weight: 500;
+    font-size: 54px;
+    line-height: 90px;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    line-height: 90px;
+}
+
+h3 {
+    font-size: 30px;
+    line-height: 50px;
+}
+
+h4 {
+    text-align: center;
+    font-size:28px;
+}
+
+h5 {
+    text-align: center;
+}
+
 /***** The 'grid' *****/
 
 .full-width {
@@ -27,11 +55,15 @@ body {
 
 .third-width {
     width: 465px;
+    height: 600px;
     margin: 0 auto;
-    float:left;
+    float: left;
 }
 
-/***** Header *****/
+img {
+    padding-left: 100px;
+}
+/***** Header section styles *****/
 
 header {
     background-image: url(../img/hero-image.png);
@@ -40,28 +72,61 @@ header {
     height: 480px;  /***** making up for padding ?!*****/
     text-align: left;
     padding: 320px 130px 0px 320px
+    
 }
 
-header h1 {
-    font-weight: 500;
-    font-size: 54px;
-    line-height: 90px;
-}
-header h3 {
-    font-size: 30px;
-    line-height: 50px;
+
+/***** Work section styles *****/
+
+#work  {
+    background-color: #21aaba;
+    clear: both; 
 }
 
-/***** Work *****/
 
-#work h2 {
+/***** About section styles *****/
+
+#about 
+{
+    background-color: #f4d1bf;
+    background-size: cover;
+    clear: both;
+}
+
+#about p {
+    font-size: 18px;
+    padding: 70px
+}
+
+/***** Contact section styles *****/
+
+footer {
+    background-color: #fbc1c4;
+    clear: both;
+    
+}
+
+footer h3 {
     text-align: center;
-    text-transform: uppercase;
-    font-size: 50px;
-    line-height: 90px;
+}
+footer p {
+    text-align: center;
+}
+footer ul {
+    list-style: none;
+
+}
+footer ul li {
+    display: inline-block;
+     
+    
+}
+footer ul li img {
+    padding-right: 40px;
+    padding-left: 40px;
 }
 
-/***** ABOUT *****/
-
-
-
+footer h5 {
+    clear:both;
+    
+}
