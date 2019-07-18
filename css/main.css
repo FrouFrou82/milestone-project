@@ -5,6 +5,8 @@ body {
     font-weight: 200;
     
 }
+
+
 .logo {
     color: #f6c253;
     font-family: omnes-pro, sans-serif;
@@ -40,28 +42,26 @@ h5 {
     text-align: center;
 }
 
+img {
+    padding-left: 100px;
+}
 /***** The 'grid' *****/
 
 .full-width {
     width: 1400px;
-    margin: 0 auto;
+    margin: 0 auto; /***** This helps to centre the content *****/
 }
 .half-width {
     width: 700px;
-    height: 600px;
+    height: 500px;
     margin: 0 auto;
     float: left;
 }
 
 .third-width {
     width: 465px;
-    height: 600px;
     margin: 0 auto;
     float: left;
-}
-
-img {
-    padding-left: 100px;
 }
 /***** Header section styles *****/
 
@@ -80,7 +80,8 @@ header {
 
 #work  {
     background-color: #21aaba;
-    clear: both; 
+    width: auto;
+    height: 1800px;
 }
 
 
@@ -91,11 +92,12 @@ header {
     background-color: #f4d1bf;
     background-size: cover;
     clear: both;
+    height: 600px;
 }
 
 #about p {
     font-size: 18px;
-padding: 70px§j
+    padding: 70px;
 }
 
 /***** Contact section styles *****/
